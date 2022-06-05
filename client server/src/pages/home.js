@@ -72,7 +72,7 @@ class Home extends React.Component {
      
          
             <li>
-              <div id = "recipe">{recipe.name} </div> <div id = "recipe">{recipe.time.value} {recipe.time.unit}</div> <Link to={`/${recipe.id}`}>{recipe.name}</Link>
+              <div id = "recipe">{recipe.name} </div> <div id = "recipe">{recipe.time.value} {recipe.time.unit}</div> <Link to={`/recipeDetail/${recipe.id}`}>{recipe.name}</Link>
             </li>
           
        )
