@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route}
 	import { Link, Switch } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
-import Blogs from './pages/blogs';
 import AddRecipe from './pages/addRecipe';
 import SignUp from './pages/signup';
 import Contact from './pages/contact';

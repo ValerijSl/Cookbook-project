@@ -54,7 +54,7 @@ function RecipeDetail (e){
   <div>
     <h1>{recipeData && recipeData.item.name}</h1>
     <p>Choose number of portions: 1-10</p>
-    <input id="porce" type="number" min="1" max="10" onChange={RecipeDetail}/>
+    <input id="porce" type="number" min="1" max="10" onChange={changePortions}/>
     <ul>{divIngredients}</ul>
     {recipeInstructions}
   </div>
