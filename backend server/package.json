@@ -1,0 +1,24 @@
+{
+  "name": "nodeproject",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "angular": "^1.8.3",
+    "axios": "^0.27.2",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express.js": "^1.0.0",
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16"
+  }
+}
